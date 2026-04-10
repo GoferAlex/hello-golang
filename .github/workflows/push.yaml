@@ -39,7 +39,7 @@ jobs:
           images: bu1d0z3r/hello-golang
 
       - name: Build and push Docker Image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v7
         with:
           context: .
           push: true
